@@ -1,0 +1,24 @@
+{
+  "name": "student_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-server": "ts-node ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.13.0",
+    "express": "^4.18.2",
+    "pg": "^8.9.0",
+    "sequelize": "^6.28.0",
+    "uuid-validate": "0.0.3",
+    "validate": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/uuid-validate": "0.0.1"
+  }
+}
